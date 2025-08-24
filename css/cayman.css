@@ -11,7 +11,7 @@ body {
   background-color: #222A33}
 
 a {
-  color: #1e6bb8;
+  color: #4796ED;
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
@@ -53,7 +53,7 @@ a {
 .page-header {
   color: #fff;
   text-align: center;
-  background-color: #159957;
+  background-color: #4796ED;
   background-image: linear-gradient(120deg, #4796ED, #607B98); }
   @media screen and (min-width: 64em) {
     .page-header {
@@ -121,7 +121,7 @@ a {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: normal;
-    color: #159957; }
+    color: #4796ED; }
   .main-content p {
     margin-bottom: 1em; }
   .main-content code {
