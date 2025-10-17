@@ -13,48 +13,102 @@
   <body>
     <section class="page-header">
       <h1 class="project-name">JellyBean</h1>
-      <h2 class="project-tagline">Control DMX decks remotly</h2>
+      <h2 class="project-tagline">A WiFi keyboard through an external plug-in</h2>
       <a href="https://github.com/AxlRocket/jellybean/releases/download/release_2.0/JellyBean_2.0.apk" class="btn">Download .apk</a>
+      <a href="https://discord.gg/Q6d2Nk3U" class="btn">Join the Discord</a>
     </section>
 
     <section class="main-content">
 
-      <p>To use JellyBean android app, you need to own a <strong><a href="#user-content-header-7">JellyBean module</a></strong></p>
+      <p>To use <strong>JellyBean app</strong>, you need to own a <strong><a href="#user-content-header-7">JellyBean plug-in</a></strong></p>
 
-      <h1>
-      <a id="user-content-header-1" class="anchor" href="#header-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to use it</h1>
+      <h2 class="section-name">
+      <a id="user-content-header-1" class="anchor" href="#header-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Modes</h2>
+
+      <p>The <strong>JellyBean plug-in</strong> can run in 2 modes :</p>
+
+      <h3>1. Standalone</h2>
+
+      <blockquote>You don't need to connect the plug-in to your WiFi network</blockquote>
+
+      <p>Steps :</p>
 
       <ol class="task-list">
-        <li>Plug the <strong>JellyBean module</strong> into your computer</li>
+        <li>Plug the <strong>JellyBean plug-in</strong> into your computer</li>
+        <li>On your phone, connect to the <strong>JellyBean_Hotspot</strong> WiFi</li>
+        <blockquote>
+          <p>SSID -> JellyBean_Hotspot</p>
+          <p>WPA -> jellybean</p>
+        </blockquote>
+        <li>Open the <strong>JellyBean app</strong>, press the 'Standalone mode' button</li>
+        <li>You're ready to go, enjoy</li>
+      </ol>
+
+      <h3>2. Server</h3>
+
+      <blockquote>You'll need to configure it to connect it to your WiFi network</blockquote>
+
+      <p>Steps :</p>
+
+      <ol class="task-list">
+        <li>Plug the <strong>JellyBean plug-in</strong> into your computer</li>
         <li>On your phone, connect to the <strong>JellyBean_Hotspot</strong> WiFi</li>
           <blockquote>
           <p>SSID -> JellyBean_Hotspot</p>
           <p>WPA -> jellybean</p>
           </blockquote>
         <li>Open the <strong>JellyBean app</strong>, and enter your WiFi credentials</li>
-        <li>Wait for the <strong>JellyBean module</strong> to reboot</li>
-        <li>Once done, look at the <strong>JellyBean module</strong> IP address and save it to the <strong>JellyBean app</strong></li>
-        <li>That's it, enjoy <strong>JellyBean</strong></li>
+        <li>Wait for the <strong>JellyBean plug-in</strong> to connect (if it fails, retry this step)</li>
+        <li>Enter the IP adress showed on the <strong>JellyBean plug-in</strong> in the <strong>JellyBean app</strong></li>
+        <li>You're ready to go, enjoy</li>
       </ol>
 
-      <p>The <strong>JellyBean module</strong> has a WiFi range of 6 meters. The connection may become unstable beyond.</p>      
+      <h3>3. Existing configuration</h3>
 
-      <h2>
-      <a id="user-content-header-3" class="anchor" href="#header-3" aria-hidden="true"><span class="octicon octicon-link"></span></a>Layout</h2>
+      <blockquote>If an existing configuration already exists</blockquote>
 
-      <p>In the settings, you can change the keyboard layout between : </p>
+      <p>Standalone mode steps :</p>
+
+      <ol class="task-list">
+        <li>Be sure to be connected to <strong>JellyBean_Hotspot</strong></li>
+        <blockquote>
+          <p>SSID -> JellyBean_Hotspot</p>
+          <p>WPA -> jellybean</p>
+        </blockquote>
+        <li>Open the <strong>JellyBean app</strong>, press the 'Standalone mode' button</li>
+        <li>You're ready to go, enjoy</li>
+      </ol>
+
+      <br>
+
+      <p>Server mode steps :</p>
+
+      <ol class="task-list">
+        <li>Be sure to be connected to the same WiFi network as your <strong>JellyBean plug-in</strong></li>
+        <li>Open the <strong>JellyBean app</strong>, press the 'A setup already exists' button</li>
+        <li>Enter the IP adress showed on the <strong>JellyBean plug-in</strong> in the <strong>JellyBean app</strong></li>
+        <li>You're ready to go, enjoy</li>
+      </ol>
+
+      <br>
+      <hr>
+
+      <h2 class="section-name">
+      <a id="user-content-header-3" class="anchor" href="#header-3" aria-hidden="true"><span class="octicon octicon-link"></span></a>Layouts</h2>
+
+      <p>Two layouts are availables in the <strong>JellyBean app</strong> settings : </p>
       <ul class="task-list">
         <li>US_us (QWERTY)</li>
         <li>FR_fr (AZERTY)</li>
       </ul>
 
       <blockquote>
-        <p>The <strong>JellyBean module</strong> have to restart to take the changes</p>
+        <p>The <strong>JellyBean plug-in</strong> have to restart to take the changes</p>
       </blockquote>
 
       <!--<h2><a id="user-content-header-4" class="anchor" href="#header-4" aria-hidden="true"><span class="octicon octicon-link"></span></a>Erase</h2>
 
-      <p>Be carefull, erasing the configuration from <strong>JellyBean app</strong> will erase the app configuration <u>AND</u> the <strong>JellyBean module</strong> configuration</p>-->
+      <p>Be carefull, erasing the configuration from <strong>JellyBean app</strong> will erase the app configuration <u>AND</u> the <strong>JellyBean plug-in</strong> configuration</p>-->
 
       <!--<h2>
       <a id="user-content-header-5" class="anchor" href="#header-5" aria-hidden="true"><span class="octicon octicon-link"></span></a>The app</h2>
@@ -64,9 +118,14 @@
       <p>Just below you will see precisely the commands you are about to send</p>
       <p><img src="img/MainView.jpg" alt="App main view" style="max-width:35%; border: 2px solid #AAAAAA; border-radius: 10px;"></p>-->
 
-      <h2><a id="user-content-header-6" class="anchor" href="#header-6" aria-hidden="true"><span class="octicon octicon-link"></span></a>Keys table</h2>
+      <br>
+      <hr>
 
-      <p>Here you find the key table</p>
+      <h2 class="section-name"><a id="user-content-header-6" class="anchor" href="#header-6" aria-hidden="true"><span class="octicon octicon-link"></span></a>Custom keyboard</h2>
+
+      <p>You can activate a custom keyboard in the <strong>JellyBean app</strong> settings (I don't know what it's for)</p>
+
+      <blockquote>If you know what it's used for, use it ! Otherwise don't</blockquote>
 
       <table>
       <thead>
@@ -89,13 +148,13 @@
       </tr>
       <tr>
       <td>At</td>
-      <td>A</td>
-      <td>A</td>
+      <td>@</td>
+      <td>@</td>
       </tr>
       <tr>
       <td>Out</td>
       <td>O</td>
-      <td>O</td>
+      <td><strong>@0</strong></td>
       </tr>
       <tr>
       <td>Through</td>
@@ -136,22 +195,31 @@
       </table>
 
       <p>
-        The delete button is used to clear the "Your command" field
+        A long press on the backspace button clear the "Your command" field
       </p>
 
-      <h2><a id="user-content-header-7" class="anchor" href="#header-7" aria-hidden="true"><span class="octicon octicon-link"></span></a>JellyBean module</h2>
+      <br>
+      <hr>
 
-      <p>The <strong>JellyBean module</strong> is only 28.8*26.7*14.7 (l*w*h - in millimeters)</p>
+      <h2 class="section-name"><a id="user-content-header-7" class="anchor" href="#header-7" aria-hidden="true"><span class="octicon octicon-link"></span></a>JellyBean plug-in</h2>
 
-      <p><img src="img/JellyBean_module.jpg" alt="JellyBean module" style="max-width:35%; border: 2px solid #AAAAAA; border-radius: 10px;"></p>
+      <p>The <strong>JellyBean plug-in</strong> is only 28.8*26.7*14.7 (l*w*h - in millimeters)</p>
 
-      <h2><a id="user-content-header-8" class="anchor" href="#header-8" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contact</h2>
+      <p><img src="img/JellyBean_plug-in.jpg" alt="JellyBean plug-in" style="max-width:35%; border: 2px solid #AAAAAA; border-radius: 10px;"></p>
+
+      <br>
+      <hr>
+
+      <h2 class="section-name"><a id="user-content-header-8" class="anchor" href="#header-8" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contact</h2>
 
       <p>
         To order one, <a href="mailto:axlrocketdev@gmail.com">please send an email</a>
       </p>
 
-      <h2><a id="user-content-header-9" class="anchor" href="#header-9" aria-hidden="true"><span class="octicon octicon-link"></span></a>Disclaimer</h2>
+      <br>
+      <hr>
+
+      <h2 class="section-name"><a id="user-content-header-9" class="anchor" href="#header-9" aria-hidden="true"><span class="octicon octicon-link"></span></a>Disclaimer</h2>
 
       <p>I am not responsible for anything. You use <strong>JellyBean</strong> at your own risk.</p>
 
