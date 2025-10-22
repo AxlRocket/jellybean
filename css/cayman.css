@@ -101,17 +101,60 @@ a {
       max-width: 64rem;
       padding: 2rem 6rem;
       margin: 0 auto;
-      font-size: 1.1rem; } }
+      font-size: 1.1rem; } 
+    .main-content img {
+      width: 35%;
+    }
+    .main-content .img-button {
+      display: flex;
+      text-align: center;
+      align-items: center;
+      gap: 20px;
+    }
+    .main-content .img-button p
+    {
+      display: inline-block;
+      width: fit-content;
+      margin: auto;
+    }}
   @media screen and (min-width: 42em) and (max-width: 64em) {
     .main-content {
       padding: 2rem 4rem;
-      font-size: 1.1rem; } }
+      font-size: 1.1rem; } 
+    .main-content img {
+      width: 50%;
+    }
+    .main-content .img-button {
+      display: flex;
+      text-align: center;
+      align-items: center;
+      gap: 20px;
+    }
+    .main-content .img-button p
+    {
+      display: inline-block;
+      width: fit-content;
+      margin: auto;
+    }}
   @media screen and (max-width: 42em) {
     .main-content {
       padding: 2rem 1rem;
-      font-size: 1rem; } }
-  .main-content img {
-    max-width: 100%; }
+      font-size: 1rem; } 
+    .main-content img {
+      display: flex;
+      margin: auto;
+      justify-content: center;
+      width: 80%;
+    }
+    .main-content .img-button {
+      text-align: center;
+    }
+    .main-content .img-button p
+    {
+      display: inline-block;
+      width: fit-content;
+      margin-top: 3rem;
+    }}
   .main-content h1,
   .main-content h2,
   .main-content h3,
@@ -120,7 +163,7 @@ a {
   .main-content h6 {
     margin-top: 2rem;
     margin-bottom: 1rem;
-    font-weight: normal;
+    font-weight: bold;
     color: #4796ED; }
   .main-content p {
     margin-bottom: 1em; }
@@ -224,6 +267,54 @@ a {
 {
   font-weight: bold !important;
 }
+
+.para
+{
+  background-color: #36414F;
+  margin-bottom: 1.6rem;
+  padding: 1.6rem;
+  border-radius: 15px;
+}
+
+details
+{
+  width: fit-content;
+  background-color: #36414F;
+  padding: .5rem 1rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+}
+
+details summary 
+{
+  display: list-item;
+  font-weight: bold;
+}
+
+details[open]
+{
+  width: 100%;
+}
+
+details[open] summary
+{
+  text-decoration: underline;
+}
+
+details[open] .table-wrapper
+{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+details[open] table
+{
+  width: auto;
+}
+
+
 
 .site-footer {
   padding-top: 2rem;
